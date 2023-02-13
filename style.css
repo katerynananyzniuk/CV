@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+  color: #0a3458;
+}
+.wrapper {
+  background-color: #ffffff;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 980px;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+.sidebar {
+  background-color: #0a3458;
+  width: 370px;
+  padding: 40px 0;
+  border-right: 1px solid #a8a8a8;
+}
+.my-foto {
+  width: 200px;
+  display: flex;
+  margin: 0 auto;
+}
+.contacts,
+.tech-skills,
+.soft-skills,
+.language-skills,
+.hobbies,
+.courses {
+  margin-left: 40px;
+  margin-top: 53px;
+  margin-right: 40px;    
+}
+[class$="__title"] {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+  background-color:#3c9cef68;
+  color: #fff;
+  padding: 4px 80px;
+  border-radius: 4px;
+  display: block;
+  text-align: center;
+}
+.contacts__item {
+  list-style-type: none;
+}
+.contacts__item-content {
+  display: flex;
+  justify-content: flex-start;
+}
+.contacts__link-container {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__link-type {
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.contacts__link {
+  line-height: 24px;
+  color:#a8a8a8;
+  text-decoration: none;
+}
+.tech-skills__add {
+  font-weight: 700;
+  margin: 10px;
+  color: #ffffff;
+}
+.tech-skills__items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 150px;
+}
+.tech-skills__item,
+.soft-skills__item,
+.language-skills__item,
+.hobbies__item,
+.courses__item {
+  line-height: 24px;
+  color: #0868BC;
+  margin-left: 15px;
+}
+.courses__item {
+  list-style-type: none;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.courses__item:last-child {
+  margin-bottom: 0;
+}
+.courses__item-time,
+.courses__item-text {
+  color: #a8a8a8;
+  font-weight: 400;
+}
+.courses__item-time,
+.tech-skills__text,
+.soft-skills__text,
+.language-skills__text,
+.hobbies__text {
+  color:#a8a8a8;
+}
+.about-me {
+  padding: 50px;
+}
+.info__title-add {
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.info__title-main {
+  font-size: 36px;
+  line-height: 32px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.info__description {
+  line-height: 24px;
+  margin: 10px;
+}
+[class$="__content"] {
+  margin-bottom: 25px;
+}
+.projects__title,
+.experience__title,
+.education__title {
+  background-color:#3c9cef68;
+  color: #0a3458;
+}
+[class$="__list"] {
+  margin: 0;
+  margin-top: 20px;
+}
+.projects__item {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+[class$="__item-title"] {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.projects__item-title {
+  color: #0868BC;
+}
+.projects__item-title:hover {
+  color: #0a3458;
+}
+[class$="__item-title-add"] {
+  font-size: 18px;
+}
+.projects__item-info {
+  display: flex;
+  flex-direction: column;
+}
+.projects__item-link {
+  color: #a8a8a8;
+  line-height: 24px;
+}
+.projects__item-link:hover {
+  color: #0868BC;
+}
+.projects__item-text {
+  color: #0a3458;
+  line-height: 24px;
+}
+[class$="__item-header"] {
+  display: flex;
+  justify-content: space-between;
+}
+.companies__item-title-link {
+  text-decoration: none;
+}
+.companies__item-title-add,
+.education__item-title-add {
+  color: #0868BC;
+  padding-left: 10px;
+}
+.companies__item-time,
+.education__item-time {
+  line-height: 24px;
+  color: #0868BC;
+  align-self: center;
+  text-align: right;
+}
+.companies__item-duties {
+  margin: 10px 40px 20px 20px;
+}
+.item-duties__item {
+  line-height: 24px;
+}
+.education__content {
+  margin-bottom: 0;
+}
+.education__item-add {
+  margin-top: 10px;
+}
